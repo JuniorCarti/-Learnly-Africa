@@ -1,27 +1,7 @@
-# Learnly Africa - Linux Administration Assessment 🚀
+# Learnly Africa - Linux Administration Assessment
 
-## 📋 Student Information
-| **Field** | **Details** |
-|-----------|-------------|
-| **Name** | Ridge Junior Abuto |
-| **Email** | ridgejunior204@gmail.com |
-| **GitHub** | [JuniorCarti](https://github.com/JuniorCarti) |
-| **Assessment** | Linux System Administration |
-| **Organization** | Learnly Africa |
-
-## 🌐 Deployment Information
-| **Resource** | **Details** |
-|-------------|-------------|
-| **EC2 Public IP** | `34.222.107.92` |
-| **EC2 Private IP** | `10.0.10.25` |
-| **Website URL** | http://34.222.107.92 |
-| **GitHub Repository** | https://github.com/JuniorCarti/-Learnly-Africa.git |
-| **AWS Region** | us-west-2 |
-
-## 🎯 Assessment Overview
+## Assessment Overview
 This project demonstrates comprehensive Linux system administration skills through the deployment of a containerized WordPress application on AWS EC2. The assessment covers all aspects of modern DevOps practices from infrastructure setup to application deployment.
-
-## ✅ Assessment Requirements Completed
 
 ### 🏆 Part 1: GitHub Account Setup
 - ✅ Professional GitHub account created
