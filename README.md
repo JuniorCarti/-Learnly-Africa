@@ -184,8 +184,8 @@ sudo docker system prune -a
    sudo docker system prune
    ```
 
-## 📄 License & Attribution
+##License & Attribution
 
 This project is part of the Learnly Africa Linux Administration assessment. All work is original and completed by Ridge Junior Abuto for educational purposes.
 *Assessment Period: Learnly Africa Linux Administration Course*  
-*Student: Ridge Junior Abuto* 🎯
+*Student: Ridge Junior Abuto*
