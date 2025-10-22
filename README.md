@@ -21,21 +21,21 @@ This project demonstrates comprehensive Linux system administration skills throu
 - Shell prompt customized (`$` to `#`)
 - Terminal environment configured
 
-### 👥 Part 4: User Management
+### Part 4: User Management
 ![User Management](Images/User%20management%20(learnly%20user).png)
 - New user `learnly` created
 - Full permissions (read, write, execute) configured
 - User switching and privilege management
 
-### 💻 Part 5: Bash Scripting and Docker Installation
+### Part 5: Bash Scripting and Docker Installation
 ![Docker Script 1](Images/Docker%20script%20and%20output1.png)
 ![Docker Script 2](Images/Docker%20script%20and%20output2.png)
 ![Docker Script 3](Images/Docker%20script%20and%20output3.png)
 ![Docker Script 4](Images/Docker%20script%20and%20output4.png)
 ![Docker Script 5](Images/Docker%20script%20and%20output5.png)
-- ✅ `install_docker.sh` script created and executed
-- ✅ Automated system updates and package management
-- ✅ Docker service installed, configured, and verified
+-  `install_docker.sh` script created and executed
+-  Automated system updates and package management
+- Docker service installed, configured, and verified
 
 ### 🐳 Part 6: Docker Configuration
 ![WordPress Setup 1](Images/WordPress%20setup%20page1.png)
