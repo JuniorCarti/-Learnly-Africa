@@ -26,13 +26,12 @@ This project demonstrates comprehensive Linux system administration skills throu
 - Docker service installed, configured, and verified
 
 ### Part 6: Docker Configuration
-- ✅ WordPress and MySQL containers deployed
-- ✅ Docker networking configured
+- WordPress and MySQL containers deployed
+- Docker networking configured
 
-## 🛠️ Technical Implementation
 ### Architecture Overview
 ```
-AWS EC2 Instance (34.222.107.92)
+AWS EC2 Instance
 ├── Docker Engine
 │   ├── MySQL Container (mysql-db)
 │   │   ├── Database: wordpress
@@ -47,10 +46,10 @@ AWS EC2 Instance (34.222.107.92)
 ### Container Specifications
 | **Container** | **Image** | **Purpose** | **Status** |
 |---------------|-----------|-------------|------------|
-| `mysql-db` | `mysql:8.0` | Database Server | ✅ Running |
-| `wordpress-app` | `wordpress:latest` | Web Application | ✅ Running |
+| `mysql-db` | `mysql:8.0` | Database Server | Running |
+| `wordpress-app` | `wordpress:latest` | Web Application | Running |
 
-## 📁 Project Structure
+## Project Structure
 ```
 Learnly-Africa/
 ├── 📄 README.md                    # Project documentation
@@ -58,7 +57,7 @@ Learnly-Africa/
 ├── 🚀 deploy_wordpress.sh         # Application deployment script
 ```
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - AWS EC2 instance running Amazon Linux
@@ -84,10 +83,6 @@ Learnly-Africa/
    ./deploy_wordpress.sh
    ```
 
-4. **Access Application**
-   - Open browser: http://34.222.107.92
-   - Complete WordPress setup
-
 ### Verification Commands
 ```bash
 # Check Docker installation
@@ -103,7 +98,7 @@ curl -I http://localhost
 ./verify.sh
 ```
 
-## 🐳 Docker Commands Reference
+## Docker Commands Reference
 
 ### Container Management
 ```bash
@@ -129,11 +124,7 @@ sudo docker network inspect wordpress-network
 # List volumes
 sudo docker volume ls
 
-# Cleanup resources
-sudo docker system prune -a
-```
-
-## 🔧 Scripts Documentation
+## Scripts Documentation
 
 ### `install_docker.sh`
 - Updates system packages
