@@ -8,7 +8,6 @@ This project demonstrates comprehensive Linux system administration skills throu
 
 ### Part 2: AWS EC2 Setup
 ![EC2 Instance Running](Images/EC2%20instance%20running.png)
-![EC2 Instance Creation](Images/Create%20EC2%20instance%20running)
 - EC2 instance named "learnly" created
 - Sandbox environment utilized
 - Instance running with public IP: `34.222.107.92`
