@@ -163,7 +163,7 @@ sudo docker system prune -a
 - Deploys WordPress container
 - Configures container networking
 - Verifies deployment
-## 🔍 Troubleshooting Guide
+## Troubleshooting Guide
 
 ### Common Issues
 1. **Docker Permission Denied**
