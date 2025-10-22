@@ -1,12 +1,10 @@
 # Learnly Africa - Linux Administration Assessment
-
 ## Assessment Overview
 This project demonstrates comprehensive Linux system administration skills through the deployment of a containerized WordPress application on AWS EC2. The assessment covers all aspects of modern DevOps practices from infrastructure setup to application deployment.
 
-### 🏆 Part 1: GitHub Account Setup
-- ✅ Professional GitHub account created
-- ✅ Repository established: `Learnly-Africa`
-- ✅ Code organization and version control
+### Part 1: GitHub Account Setup
+- GitHub account created
+- Repository created: `Learnly-Africa`
 
 ### 🖥️ Part 2: AWS EC2 Setup
 ![EC2 Instance Running](Images/EC2%20instance%20running.png)
