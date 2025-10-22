@@ -1,48 +1,29 @@
 # Learnly Africa - Linux Administration Assessment
-
-## Student Information
-| **Field** | **Details** |
-|-----------|-------------|
-| **Name** | Ridge Junior Abuto |
-| **Email** | ridgejunior204@gmail.com |
-| **GitHub** | [JuniorCarti](https://github.com/JuniorCarti) |
-| **Assessment** | Linux System Administration |
-| **Organization** | Learnly Africa |
-
-## Deployment Information
-| **Resource** | **Details** |
-|-------------|-------------|
-| **EC2 Public IP** | `34.222.107.92` |
-| **EC2 Private IP** | `10.0.10.25` |
-| **Website URL** | http://34.222.107.92 |
-| **GitHub Repository** | https://github.com/JuniorCarti/-Learnly-Africa.git |
-| **AWS Region** | us-west-2 |
-
 ## Assessment Overview
 This project demonstrates comprehensive Linux system administration skills through the deployment of a containerized WordPress application on AWS EC2. The assessment covers all aspects of modern DevOps practices from infrastructure setup to application deployment.
 ### Part 1: GitHub Account Setup
-- ✅ Professional GitHub account created
-- ✅ Repository established: `Learnly-Africa`
+- Professional GitHub account created
+- Repository established: `Learnly-Africa`
 
 ### Part 2: AWS EC2 Setup
-- ✅ EC2 instance named "learnly" created
-- ✅ Sandbox environment utilized
-- ✅ Instance running with public IP: `34.222.107.92`
+- EC2 instance named "learnly" created
+- Sandbox environment utilized
+- Instance running with public IP: `34.222.107.92`
 
 ### Part 3: SSH Access and Shell Customization
-- ✅ Secure SSH connection established
-- ✅ Shell prompt customized (`$` to `#`)
-- ✅ Terminal environment configured
+- Secure SSH connection established
+- Shell prompt customized (`$` to `#`)
+- Terminal environment configured
 
 ### Part 4: User Management
-- ✅ New user `learnly` created
-- ✅ Full permissions (read, write, execute) configured
-- ✅ User switching and privilege management
+- New user `learnly` created
+- Full permissions (read, write, execute) configured
+- User switching and privilege management
 
 ### Part 5: Bash Scripting and Docker Installation
-- ✅ `install_docker.sh` script created and executed
-- ✅ Automated system updates and package management
-- ✅ Docker service installed, configured, and verified
+- `install_docker.sh` script created and executed
+- Automated system updates and package management
+- Docker service installed, configured, and verified
 
 ### Part 6: Docker Configuration
 - ✅ WordPress and MySQL containers deployed
