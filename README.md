@@ -6,14 +6,14 @@ This project demonstrates comprehensive Linux system administration skills throu
 - GitHub account created
 - Repository created: `Learnly-Africa`
 
-### 🖥️ Part 2: AWS EC2 Setup
+### Part 2: AWS EC2 Setup
 ![EC2 Instance Running](Images/EC2%20instance%20running.png)
 ![EC2 Instance Creation](Images/Create%20EC2%20instance%20running)
-- ✅ EC2 instance named "learnly" created
-- ✅ Sandbox environment utilized
-- ✅ Instance running with public IP: `34.222.107.92`
+- EC2 instance named "learnly" created
+- Sandbox environment utilized
+- Instance running with public IP: `34.222.107.92`
 
-### 🔐 Part 3: SSH Access and Shell Customization
+### Part 3: SSH Access and Shell Customization
 ![SSH Connection 1](Images/SSH%20connection%20&%20shell%20prompt%20(%23).png)
 ![SSH Connection 2](Images/SSH%20connection%20&%20shell%20prompt%20(%23)1.png)
 ![SSH Connection 3](Images/SSH%20connection%20&%20shell%20prompt%20(%23)2.png)
