@@ -23,9 +23,9 @@ This project demonstrates comprehensive Linux system administration skills throu
 
 ### 👥 Part 4: User Management
 ![User Management](Images/User%20management%20(learnly%20user).png)
-- ✅ New user `learnly` created
-- ✅ Full permissions (read, write, execute) configured
-- ✅ User switching and privilege management
+- New user `learnly` created
+- Full permissions (read, write, execute) configured
+- User switching and privilege management
 
 ### 💻 Part 5: Bash Scripting and Docker Installation
 ![Docker Script 1](Images/Docker%20script%20and%20output1.png)
