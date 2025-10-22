@@ -17,9 +17,9 @@ This project demonstrates comprehensive Linux system administration skills throu
 ![SSH Connection 1](Images/SSH%20connection%20&%20shell%20prompt%20(%23).png)
 ![SSH Connection 2](Images/SSH%20connection%20&%20shell%20prompt%20(%23)1.png)
 ![SSH Connection 3](Images/SSH%20connection%20&%20shell%20prompt%20(%23)2.png)
-- ✅ Secure SSH connection established
-- ✅ Shell prompt customized (`$` to `#`)
-- ✅ Terminal environment configured
+- Secure SSH connection established
+- Shell prompt customized (`$` to `#`)
+- Terminal environment configured
 
 ### 👥 Part 4: User Management
 ![User Management](Images/User%20management%20(learnly%20user).png)
