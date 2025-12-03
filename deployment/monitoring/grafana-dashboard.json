@@ -1,0 +1,26 @@
+{
+  "title": "SHAMBA AI Ops",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "API Latency",
+      "targets": [
+        { "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job='backend'}[5m])) by (le))" }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Alert Ack Time",
+      "targets": [
+        { "expr": "avg(alert_ack_seconds)" }
+      ]
+    },
+    {
+      "type": "gauge",
+      "title": "Queue Length",
+      "targets": [
+        { "expr": "sum(sync_queue_size)" }
+      ]
+    }
+  ]
+}

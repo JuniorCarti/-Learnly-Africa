@@ -1,0 +1,16 @@
+{
+  "name": "shamba-data-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "pip install -r requirements.txt",
+    "dev": "python -m etl.runner --env dev",
+    "prod": "python -m etl.runner --env prod",
+    "lint": "ruff etl",
+    "format": "black etl"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "rimraf": "^5.0.10"
+  }
+}
