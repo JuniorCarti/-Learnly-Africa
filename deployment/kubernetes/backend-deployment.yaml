@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  namespace: shamba
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: shamba-backend
+  template:
+    metadata:
+      labels:
+        app: shamba-backend
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/shamba-ai/backend:latest
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: shamba-config
+            - secretRef:
+                name: shamba-secrets
+          env:
+            - name: DATABASE_URL
+              value: postgresql://shamba:$(DB_PASSWORD)@postgres:5432/shamba_ai
+            - name: REDIS_URL
+              value: redis://redis:6379
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+      imagePullSecrets:
+        - name: ghcr

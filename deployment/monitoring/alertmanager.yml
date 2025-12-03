@@ -1,0 +1,17 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: oncall
+  routes:
+    - match:
+        severity: critical
+      receiver: pagerduty
+
+receivers:
+  - name: oncall
+    email_configs:
+      - to: ops@shamba.ai
+  - name: pagerduty
+    pagerduty_configs:
+      - routing_key: ${PAGERDUTY_KEY}

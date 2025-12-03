@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shamba-config
+  namespace: shamba
+data:
+  NODE_ENV: "production"
+  API_URL: "https://api.shamba.ai"
+  APP_URL: "https://app.shamba.ai"
+  SOCKET_RATE_LIMIT: "100"

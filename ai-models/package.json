@@ -1,0 +1,16 @@
+{
+  "name": "shamba-ai-models",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "setup": "pip install -r requirements.txt",
+    "train": "python -m src.training.pipeline",
+    "evaluate": "python -m src.evaluation.report",
+    "lint": "ruff src",
+    "typecheck": "pyright"
+  },
+  "dependencies": {
+    "pyright": "^1.1.389",
+    "rimraf": "^5.0.10"
+  }
+}
